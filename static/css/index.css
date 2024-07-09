@@ -132,3 +132,43 @@ body {
   .eql-cntrb { 
     font-size: smaller;
   }
+
+  .row {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+
+  .column {
+    flex: 1;
+    padding: 10px;
+  }
+
+  .caption {
+    text-align: center; /* 使图注居中显示 */
+    margin-top: 10px; /* 图片与图注之间的距离 */
+    color: #666; /* 图注文字颜色 */
+    font-style: italic; /* 图注文字样式为斜体 */
+  }
+
+  .pdf-viewer {
+    width: 100%;
+    height: 100%;
+    /* height: 360px;  */
+  }
+  
+  .videos { 
+    display: flex; 
+    flex-wrap: wrap; 
+    align-content: space-between; 
+    gap: .5em; 
+    padding-top: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+
+  .videos video { 
+    flex: 1; 
+    width: 30%; 
+    border-radius: .25em; 
+  }
