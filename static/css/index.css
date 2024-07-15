@@ -167,8 +167,14 @@ body {
     margin-bottom: 20px;
   }
 
-  .videos video { 
-    flex: 1; 
+  .video-container {
+    text-align: center;  /* 中心对齐视频和文字 */
+    margin: 10px;  /* 添加一些外边距 */
     width: 30%; 
-    border-radius: .25em; 
+  }
+
+  .video-container video { 
+    flex: 1; 
+    border-radius: .25em;
+    width: 100%; 
   }
